@@ -10,17 +10,21 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.99px) {
+  heigth: 650px !important;
 
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.99px) {
+  heigth: 650px !important;
 
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-
+  .jumbotron{
+    heigth: 650px !important;
+  }
 }
 
 .body{
@@ -31,9 +35,9 @@
 
 .nav-item:hover{
   /* height: inherit !important; */
-  background-color: #181818 !important;
+  background-color: #fff !important;
 }
 
 .nav-item a:hover{
-  color: #fff !important;
+  color: #343A40 !important;
 }
