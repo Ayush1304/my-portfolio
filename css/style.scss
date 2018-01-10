@@ -1,49 +1,13 @@
-// Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.99px) {
-
-}
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767.99px) {
-
-}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991.99px) {
-  .jumbo-content{
-    margin-top: 300px;
-  }
-
-  .jumbotron{
-    heigth: 650px !important;
-  }
-
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199.99px) {
-  .jumbo-content{
-    margin-top: 300px;
-  }
-
-  .jumbotron{
-    heigth: 650px !important;
-  }
-
-}
-
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-  .jumbotron{
-    heigth: 650px !important;
-  }
+// @media (min-width: 1200px) {
+//   .jumbotron{
+//     heigth: 650px !important;
+//   }
+// }
 
-  .jumbo-content{
-    margin-top: 300px;
-  }
+.jumbo-content{
+  margin-top: 500px !important;
 }
-
-
 
 .body{
   background-color: blue !important;
@@ -66,6 +30,7 @@
 .nav-item{
   padding: 0px 10px;
 }
+
 .nav-item:hover{
   /* height: inherit !important; */
   background-color: #fff !important;
