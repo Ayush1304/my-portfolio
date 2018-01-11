@@ -5,6 +5,8 @@
 //   }
 // }
 
+@primary-color: #161111;
+
 .jumbo-content{
   margin-top: 500px !important;
 }
@@ -14,7 +16,7 @@
 }
 
 .nav-bg{
-  background-color: rgba(0,0,0,0.9) !important;
+  background-color: #161111 !important;
   margin: 30px 50px;
   padding-left: 50px;
   padding-right: 30px;
@@ -79,4 +81,8 @@
 
 .content{
   margin: 90px 0px;
+}
+
+.portfolio-container{
+  background-color: #161111;
 }
