@@ -7,6 +7,27 @@
 
 @primary-color: #161111;
 
+.downld{
+  border-radius: 50%;
+  background-color: #161111;
+  position: fixed;
+  top: 82%;
+  left: 90%
+}
+
+.downld:hover{
+  border-radius: 50%;
+  border: 1px #161111 solid;
+  background-color: #fff;
+  position: fixed;
+  top: 82%;
+  left: 90%;
+}
+
+.downld-icon:hover{
+  filter:invert(100%);
+}
+
 .jumbo-content{
   margin-top: 500px !important;
 }
