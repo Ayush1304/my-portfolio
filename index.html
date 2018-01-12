@@ -15,9 +15,30 @@
       var scrollto = offset.top - 60; // minus fixed header height
       $('html, body').animate({scrollTop:scrollto}, 0);
     </script> -->
+    <!-- <script>
+      $('#about').scroll(function() {
+         alert('you have scrolled to the h1!');
+      }); -->
+      <script type="text/javascript">
+        (function() {
+            var aboutEl = $('div#about'),
+            var btop = $('div.btop');
+                aboutElOffset = aboutEl.offset().top/2,
+                documentEl = $(document);
+            documentEl.on('scroll', function() {
+                if ( documentEl.scrollTop() > aboutElOffset && btop.hasClass('hidden') ) aboutEl.removeClass('hidden');
+                else {
+                  aboutEl.addClass('hidden');
+                }
+            });
+        })();
+    </script>
   </head>
   <body>
     <header>
+      <div class="fixed-top btop hidden">
+
+      </div>
       <nav class="navbar navbar-expand-lg navbar-dark nav-bg fixed-top">
         <a class="navbar-brand" href="index.html">StrokesAndFill</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
